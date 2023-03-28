@@ -1,0 +1,17 @@
+/*Referred to make the responsive IFrame source: https://enlear.academy/create-responsive-iframe-embed-in-a-react-way-f52075bf3b04 */
+.iframeContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+
+.iframe{
+    overflow: hidden;
+    border: 0;
+    align-self: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
